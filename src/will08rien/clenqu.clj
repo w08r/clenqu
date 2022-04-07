@@ -31,8 +31,8 @@
   "Callable entry point to the application."
   [data]
   (let [l (lr)]
-    (.readLine l)
-    (.readLine l)))
+    (.readLine l "p1] " "r1" ^"Ljava.lang.Character" nil nil)
+    (.readLine l "p2] ")))
 
 (defn -main
   "I don't do a whole lot ... yet."
